@@ -83,6 +83,12 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+}
+
+.destaque p {
+    text-align: center;
+}
+
 footer {
     background-color: #333;
     color: #fff;
