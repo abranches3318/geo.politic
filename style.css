@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Adicionando uma imagem de fundo para o corpo */
+
 body {
     background-image: url('imagens/fundo.jpg');
     background-size: cover; 
@@ -13,7 +13,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para o header */
+
 header {
     padding: 20px;
     text-align: center;
@@ -88,7 +88,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: relative; /* Mantém o rodapé na posição correta */
+    position: relative; 
     bottom: 0;
     width: 100%;
 }
