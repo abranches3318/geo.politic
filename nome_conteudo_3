@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impactos no território ucraniano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Guerra na Ucrânia</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nome_conteudo_1.html">Impactos no território</a></li>
+                <li><a href="nome_conteudo_2.html">Refugiados</a></li>
+                <li><a href="nome_conteudo_3.html">Cessar-fogo</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Impactos no território ucraniano</h2>
+        <p>A guerra na Ucrânia causou danos significativos à infraestrutura e afetou milhões de pessoas...</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Guerra na Ucrânia</p>
+    </footer>
+</body>
+</html>
