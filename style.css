@@ -81,8 +81,8 @@ nav ul li a:hover {
     max-width: 600px;
     height: auto;
     border-radius: 10px;
-}
-
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
 }
 
 .destaque p {
