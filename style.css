@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 main {
-    flex: 1; /* Faz o conteúdo ocupar o espaço disponível */
+    flex: 1; /
     padding: 20px;
 }
 
@@ -68,7 +68,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: relative; /* Mantém o rodapé na posição correta */
+    position: relative;
     width: 100%;
 }
 
