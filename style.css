@@ -1,4 +1,4 @@
-* {
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -62,28 +62,30 @@ nav ul li a:hover {
 .destaques {
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column; /* Organiza os destaques verticalmente */
+    gap: 30px; /* Espaço entre cada destaque */
 }
 
 .destaque {
-    margin: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o texto em relação à imagem */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px; /* Espaço entre a imagem e o texto */
 }
 
 .destaque img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+    width: 250px; /* Define uma largura fixa para a imagem */
+    height: 150px; /* Define uma altura fixa para a imagem */
     border-radius: 10px;
-    object-fit: cover; 
-    object-position: center; 
-    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
-    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+    object-fit: cover; /* Mantém a proporção da imagem sem distorcer */
 }
 
 .destaque p {
-    text-align: center;
+    text-align: left;
+    flex: 1; /* Faz o parágrafo ocupar o restante do espaço disponível */
+    color: white; /* Mantém o texto branco para melhor contraste */
 }
 
 footer {
